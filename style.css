@@ -100,6 +100,7 @@ nav ul li a:hover::after{
 
 .about-col-1 img{
     width:50%;
+
     border-radius: 15px;
 }
 
@@ -412,7 +413,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(images/phone-background.png);
+        background-image: url();
     }
 
     .header-text{
