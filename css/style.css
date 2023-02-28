@@ -174,16 +174,24 @@
 }
 
 .section-2-button {
-    color: #000000;
+    border:1px solid ;
+    color:#fff;
+    
     font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
+    padding: 5px;
     margin-top: 50px;
+    border-radius: 5px;
+    background-color: #454545;
 }
 
 .section-2-button:hover {
-    text-decoration: 3px solid underline ;
-    color: #000000;
+    /* text-decoration: 3px solid underline ;
+    color: #000000; */
+
+    color:#fff;
+    background-color: #666666;
 }
 
 @media (max-width: 768px) {
@@ -193,6 +201,7 @@
 
     .primary-heading {
         font-size: 42px;
+        display: inline;
     }
 
     .paragraph {
@@ -682,7 +691,7 @@
 }
 
 .masonry .grid {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
     display: inline-block;
     margin-bottom: 16px;
     position: relative;
@@ -691,8 +700,9 @@
 }
 
 .grid>img{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
 }
 
 .masonry .grid:before {
