@@ -1347,7 +1347,7 @@ form .btn2{
         font-size: 25px;
     }
 
-    nav ul{
+    /* nav ul{
         background: #ff004f;
         position: fixed;
         top: 0;
@@ -1357,7 +1357,7 @@ form .btn2{
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
-    }
+    } */
 
     nav ul li{
         display: block;
