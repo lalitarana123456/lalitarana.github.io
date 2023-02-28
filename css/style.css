@@ -88,9 +88,10 @@
 .image-frame {
     width: 380px;
     height: 380px;
-    background-image: url(../images/image1.jpg);
+    background-image: url(/images/croplast.png);
     background-position: center;
-    background-size: cover;
+    background-size: 260px;
+    background-repeat: no-repeat;
     border: 8px solid #FFFFFF;
     border-radius: 50%;
     position: absolute;
